@@ -1,0 +1,136 @@
+#cc_ssl_wizard {
+	font-size:0.95em;
+	font-family:'Arial';
+	background:#fefefe;
+	border:1px solid #e3e3e3;
+	padding:4px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+#cc_ssl_wizard_debug {
+	padding:10px;
+	font-family:courier new;
+	color:gray;
+	font-size:0.85em;
+	margin-top:60px;
+	height:120px;
+	overflow:auto;
+	border:1px solid gray;
+	border-top:2px solid black;
+}
+
+div.cc_cb { clear:both; }
+
+#cc_top_navigation {
+	background:#efefef;
+	padding:5px;
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+	font-size:0.8em;
+}
+
+div.cc_nav_item {
+	padding:5px;
+	padding-right:10px;
+	padding-left:10px;
+	min-width:60px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	color:gray;
+}
+
+div.cc_nav_item_active {
+	color:#000;
+}
+
+div.cc_nav_div {
+	background:url(ico_pfeil.png) no-repeat;
+	margin:8px;
+	width:8px;
+	height:11px;
+	float:left;
+}
+
+div.cc_step {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+div.cc_step_active {
+	display:block;
+}
+
+div.cc_step_title {
+	font-weight:bold;
+	background:#efefef;
+	padding:10px;
+	font-size:1em;
+	margin-top:8px;
+}
+
+div.cc_step_content {
+	color:#888;
+	padding:10px;
+	font-size:0.85em;
+}
+
+table.cc_step_content {
+	border:0;
+	width:100%;
+	color:#000;
+	margin-top:10px;
+	font-size:1.0em;
+}
+
+#approvers { color:#000; font-weight:normal; }
+
+label {
+	font-weight:bold;
+	cursor:pointer;
+}
+
+span.highlight_productname {
+	color:#0076ae;
+}
+
+#cc_step_navigator {
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-right-radius:6px;
+	background:#efefef;
+	padding:10px;
+}
+
+#livePrice {
+	margin-left:20px;
+}
+
+.cc_re {
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+.cc_ret {
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+}
+.cc_reb {
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-right-radius:6px;
+}
+.cc_retl {
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+}
+.cc_retr {
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+}
